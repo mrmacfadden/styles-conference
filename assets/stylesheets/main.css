@@ -54,6 +54,7 @@ table {
 */
 
 body {
+  background: #293f50;
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -173,6 +174,15 @@ a:hover {
 p a {
   border-bottom: 1px solid #dfe2e5;
 }
+.primary-header a,
+.primary-footer a {
+  color: #fff;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #648880;
+}
+
 
 /*
   ========================================
